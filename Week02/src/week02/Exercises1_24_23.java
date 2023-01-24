@@ -20,6 +20,23 @@ public class Exercises1_24_23
 		// 		variables scoreA and scoreB. Assuming that the player with 
 		//		the larger score wins, write an if/else sequence that prints 
 		//		out "A won", "B won", or "Game tied".
+		int scoreA = 10;
+		int scoreB = 15;
+		
+		if(scoreA > scoreB)
+		{
+			System.out.println("A won");
+		}
+		else if(scoreA < scoreB)
+		{
+			System.out.println("B won");
+		}
+		else
+		{
+			System.out.println("Game tied");
+		}
+		
+		
 		
 		
 		// Exercise 8
@@ -29,7 +46,6 @@ public class Exercises1_24_23
 		String s = "hello";
 		int len = s.length();
 		char a = s.charAt(3);
-
 		
 
 	}
