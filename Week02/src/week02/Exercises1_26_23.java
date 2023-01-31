@@ -16,23 +16,26 @@ public class Exercises1_26_23
 		}
 		System.out.println(i);
 		
+		System.out.println("================");
+		
 		
 		//Exercise 1.5
 		// Hand tracing
 		// What value is displayed
-//		int n = 1729;
-//		int sum = 0;
-//		while (n > 0) 
-//		{
-//			int digit = n % 10;
-//			sum = sum + digit;
-//			n = n / 10;
-//		}
-//		System.out.println(sum);
+		int n = 1729;
+		int sum = 0;
+		while (n > 0) 
+		{
+			int digit = n % 10;
+			sum = sum + digit;
+			n = n / 10;
+		}
+		System.out.println(sum);
 			
+		System.out.println("================");
 			
 		// Exercise 2
-		int n = 1;
+		n = 1;
 		while (n <= 3)
 		{
 		   System.out.print(n + ", ");

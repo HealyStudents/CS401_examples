@@ -19,23 +19,12 @@ public class InvestmentProblem
 		   balance = balance + interest;
 		   System.out.println(year + ": " + balance);
 		}
-		
-		
-		
-//		int i = 0;
-//		while(true)
-//		{
-//			i++;
-//			if(i > 10)
-//			{
-//				break;
-//			}
-//		}
 	}
 	
 	
 	public static void loopExample() 
 	{
+		//An example of an infinite loop that we escape from
 		int i = 0;
 		while(true)
 		{
