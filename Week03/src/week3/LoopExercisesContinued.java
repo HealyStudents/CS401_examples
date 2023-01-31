@@ -16,13 +16,37 @@ public class LoopExercisesContinued
 	public static void main(String[] args) 
 	{
 		//How many numbers does this loop print?
-		for (int n = 10; n >= 0; n--)
+//		for (int n = 10; n >= 0; n--)
+//		{
+//		   System.out.println(n);
+//		}
+		
+		//Exercise 3
+		// Rewrite as a do-while
+		int i = 1000;
+		while(i < 1000)
 		{
-		   System.out.println(n);
+			System.out.println("First loop: " + (2*i + 1));
+			i++;
 		}
+		
+		do
+		{
+			System.out.println(2*i + 1);
+			i++;
+		}while(i < 1000);
+		
+		
 
 		// Exercise 4
-		// Write a for loop that computes the sum of the integers from 1 to n.
+		// Write a for loop that computes the sum 
+			// of the integers from 1 to n.
+//		int n = 5;
+//		for (int i = 1; i <= n; i++) 
+//		{
+//			System.out.println(i);
+//		}
+		
 		
 		
 		// Look at this code snippet
@@ -44,6 +68,36 @@ public class LoopExercisesContinued
 //			}
 //			System.out.println(word.charAt(i));
 //		}
+		
+		
+		//System.out.println(keepLettersOnly("Hello World!!!"));
+		
+		
+		//Substring example
+//		String str = "Hello World!";
+//		System.out.println(str.substring(2, 3));
+//		System.out.println(str.substring(4));
+//		System.out.println(str.substring(15));
+//		System.out.println(str.indexOf('l'));
+		
+		
+		// Trim
+		String str2 = " hello ";
+		str2 = str2.trim(); // "hello"
+		
+		
+		boolean shouldLoop = false;
+		
+		while(shouldLoop)
+		{
+			System.out.println("I'm looping!");
+		}
+		
+		do
+		{
+			System.out.println("I'm looping!");
+		}while(shouldLoop);
+		
 	}
 	
 	public static String keepLettersOnly(String s)
@@ -52,7 +106,8 @@ public class LoopExercisesContinued
 		for(int i=0;i<s.length();i++)
 		{
 			char a = s.charAt(i);
-			if((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z')){
+			if((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'))
+			{
 				r = r + a;
 			}
 		}
