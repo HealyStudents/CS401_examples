@@ -12,4 +12,9 @@ public class Person
 			name = n;
 		}
 	}
+	
+	public String toString()
+	{
+		return name;
+	}
 }
